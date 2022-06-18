@@ -16,6 +16,7 @@
         line-height: 1.19;
         color: var(--accent-color);
         text-decoration: none;
+        letter-spacing: 0.03em;
 }
 .logo .stydio {
     color: var(--primary-text-color);
@@ -42,8 +43,10 @@ ul {
     color: var(--primary-white-color);
         font-weight: 900;
         font-size: 44px;
-        line-height: 1.3;
+        line-height: 1.36;
         text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
 }
 
 /* site-nav */
@@ -53,6 +56,7 @@ ul {
         font-size: 14px;
         line-height: 1.4;
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .site-nav .link.current {
     color: var(--accent-color);
@@ -62,28 +66,19 @@ ul {
     color: var(--accent-color);
 }
 
-.link-contacts-primery {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        color: var(--accent-color);
-        text-decoration: none;
-}
-.link-contacts-secondary {
+.link-contacts {
     font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         color: var(--title-text-color);
         text-decoration: none;
+        letter-spacing: 0.02em;
 }
-.link-contacts-primery:hover,
-.link-contacts-primery:focus {
+.link-contacts:hover,
+.link-contacts:focus {
     color: var(--accent-color);
 }
-.link-contacts-secondary:hover,
-.link-contacts-secondary:focus {
-    color: var(--accent-color);
-}
+
 
 .section-title {
     color: var(--primary-text-color);
@@ -91,6 +86,7 @@ ul {
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
+        letter-spacing: 0.03em;
 }
  /* Секция о нас */
  .title {
@@ -98,12 +94,15 @@ ul {
         font-size: 14px;
         line-height: 1.14;
         color: var(--primary-text-color);
+        letter-spacing: 0.03em;
+        text-transform: uppercase
  }
  .title-text {
         font-weight: 400;
         font-size: 14px;
         line-height: 1.7;   
-        color:var(--title-text-color); 
+        color:var(--title-text-color);
+        letter-spacing: 0.03em;
  }
 .section-teems {
     background-color:var(--accent-bgr-color);
@@ -113,6 +112,7 @@ ul {
 color:var(--primary-text-color);
 background-color: var(--primary-bgr-color);
 cursor: pointer;
+letter-spacing: 0.03em;
 }
 
 .button:hover,
@@ -127,6 +127,7 @@ cursor: pointer;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.8;
+        letter-spacing: 0.06em;
 }
 .button.primery {
     background-color: var(--accent-color);
@@ -135,6 +136,7 @@ cursor: pointer;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.6;
+        letter-spacing: 0.03em;
 }
 .button.secondary {
     color: var(--primary-text-color);
@@ -143,6 +145,7 @@ cursor: pointer;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.6;
+        letter-spacing: 0.03em;
 }
 
 /* Секция о работе */
@@ -152,6 +155,7 @@ cursor: pointer;
         line-height: 1.16;
         color: var(--primary-text-color);
         text-align: center;
+        letter-spacing: 0.03em;
 }
 
 .teems {
@@ -159,6 +163,7 @@ cursor: pointer;
         font-size: 16px;
         line-height: 1.18;
         color:var(--primary-text-color);
+        letter-spacing: 0.03em;
 }
 
 .teems-position {
@@ -167,6 +172,7 @@ cursor: pointer;
         font-size: 16px;
         line-height: 1.18;
         color: var(--title-text-color);
+        letter-spacing: 0.03em;
 }
 
 /* Портфолио */
@@ -175,6 +181,7 @@ cursor: pointer;
     font-size: 18px;
     line-height: 2;
     color: var(--primary-text-color);
+    letter-spacing: 0.06em;
 }
 
 .proect {
@@ -182,6 +189,7 @@ cursor: pointer;
     font-size: 16px;
     line-height: 1.8;
     color: var(--title-text-color);
+    letter-spacing: 0.03em;
 }
 
 /* Footer */
@@ -196,13 +204,15 @@ cursor: pointer;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
-        color: var(--primary-white-color)
+        color: var(--primary-white-color);
+        letter-spacing: 0.03em;
 }
 .footer-items {
         font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
-         color: rgba(255, 255, 255, 0.6);
+        color: rgba(255, 255, 255, 0.6);
+        letter-spacing: 0.03em;
 }
 .footer-items:hover,
 .footer-items:focus {
@@ -210,14 +220,20 @@ cursor: pointer;
 }
 
 
-.link-contacts-primery .footer {
+.link-contacts-primery.footer {
     color: var(--title-footer-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
 }
-.link-contacts-primery.footer:hover,
+/* .link-contacts-primery.footer:hover,
 .link-contacts-primery.footer:focus {
     color: var(--accent-color);
 }
 .link-contacts-secondary.footer:hover,
 .link-contacts-secondary.footer:focus {
     color: var(--accent-color);
-}
+} */
